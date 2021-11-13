@@ -25,11 +25,17 @@ body {
   color: var(--accent-color);
 }
 
-/*-------------HEADER-------------*/
-
-.current:active {
-  color: var(--accent-color);
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 }
+
+/*-------------HEADER-------------*/
 
 .nav-link {
   font-weight: 500;
