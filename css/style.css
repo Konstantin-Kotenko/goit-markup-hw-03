@@ -9,6 +9,41 @@
   --secondary-background-color: #f5f4fa;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.contact-list {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -23,16 +58,6 @@ body {
 
 .logo-web {
   color: var(--accent-color);
-}
-
-p,
-ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
 }
 
 /*-------------HEADER-------------*/
