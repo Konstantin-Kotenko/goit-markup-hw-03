@@ -45,7 +45,29 @@ ul {
   align-items: center;
 }
 
+.contact-container {
+  margin-left: auto;
+}
 
+.logo-container {
+  margin-right: 93px;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.contact-item {
+  margin-right: 50px;
+}
+
+.contact-item:last-child {
+  margin-right: 0;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -119,6 +141,21 @@ body {
   text-align: center;
 }
 
+.hero-container {
+  height: 600px;
+}
+
+.hero-title {
+  padding-top: 200px ;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-bottom: 30px;
+}
+
+.primary-button {
+  margin-bottom: 200px;
+}
+
 /*-------------QUALITIES-------------*/
 
 .qualities-title {
@@ -135,6 +172,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.qualities-list {
+  display: flex;
+  margin-right: 30px;
+}
+.qualities-list:last-child {
+  margin-right: 0;
 }
 
 /*-------------ACTION-------------*/
