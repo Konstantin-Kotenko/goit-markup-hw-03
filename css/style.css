@@ -26,8 +26,8 @@ ul {
 
 .container {
   width: 1200px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -37,12 +37,15 @@ ul {
 
 .contact-list {
   display: flex;
+  margin-left: auto;
 }
 
 .header-container {
   display: flex;
   align-items: center;
 }
+
+
 
 body {
   font-family: "Roboto", sans-serif;
