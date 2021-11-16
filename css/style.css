@@ -43,6 +43,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 .contact-container {
@@ -51,6 +52,7 @@ ul {
 
 .logo-container {
   margin-right: 93px;
+  padding-bottom: 25px;
 }
 
 .nav-item {
@@ -146,7 +148,7 @@ body {
 }
 
 .hero-title {
-  padding-top: 200px ;
+  padding-top: 200px;
   padding-left: 250px;
   padding-right: 250px;
   margin-bottom: 30px;
@@ -157,6 +159,10 @@ body {
 }
 
 /*-------------QUALITIES-------------*/
+
+.container-qualities {
+  justify-content: center;
+}
 
 .qualities-title {
   font-weight: 700;
@@ -176,15 +182,74 @@ body {
 
 .qualities-list {
   display: flex;
+}
+
+
+.qualities-item {
   margin-right: 30px;
 }
-.qualities-list:last-child {
+
+.qualities-item:last-child {
   margin-right: 0;
+}
+
+.qualities-list{
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 /*-------------ACTION-------------*/
 
+.action-list{
+  display: flex;
+}
+
+.action-item{
+  margin-right: 30px;
+  margin-bottom: 188px;
+}
+
+.action-item:last-child{
+  margin-right: 0;
+}
+
+.action-title{
+  margin-bottom: 50px;
+}
+
+
+
 /*-------------COMMAND-------------*/
+
+.team-list{
+  display: flex;
+}
+
+.team-title{
+  padding-bottom: 50px;
+}
+
+.team-item{
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.team-item:last-child{
+  margin-right: 0;
+}
+
+.teammate-name{
+  margin-bottom: 10px;
+}
+
+.image{
+  margin-bottom: 30px;
+}
+
+.teammate-position{
+  margin-bottom: 30px;
+}
+
 .section-title {
   font-weight: bold;
   font-size: 36px;
@@ -212,6 +277,27 @@ body {
 }
 
 /*-------------FOOTER-------------*/
+
+.container-footer{
+ height: 252px;
+}
+
+.logo-container{
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.second-contact-list{
+  margin-bottom: 60px;
+}
+
+.second-contact-item{
+  margin-bottom: 9px;
+}
+
+.second-contact-item:last-child{
+  margin-bottom: 0;
+}
 
 .map-link {
   font-size: 14px;
@@ -250,6 +336,36 @@ body {
 }
 
 /*-------------PORTFOLIO-------------*/
+
+.portfolio-header{
+  margin-bottom: 93px;
+}
+
+.filter-container{
+  display: flex;
+  justify-content: center;
+}
+
+.filter-list{
+  display: flex;
+}
+
+.filter-item{
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.filter-item:last-child{
+  margin-right: 0;
+}
+
+.portfolio-container{
+  display: flex;
+}
+
+.portfolio-list{
+  display: flex;
+}
 
 .secondary-button {
   cursor: pointer;
