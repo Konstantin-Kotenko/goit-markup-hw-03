@@ -31,6 +31,11 @@ ul {
   margin: 0 auto;
 }
 
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .nav-list {
   display: flex;
 }
@@ -43,7 +48,6 @@ ul {
 .header-container {
   display: flex;
   align-items: baseline;
-  
 }
 
 .contact-container {
@@ -143,19 +147,11 @@ body {
   text-align: center;
 }
 
-.hero-container {
-  height: 600px;
-}
-
 .hero-title {
   padding-top: 200px;
   padding-left: 250px;
   padding-right: 250px;
   margin-bottom: 30px;
-}
-
-.primary-button {
-  margin-bottom: 200px;
 }
 
 /*-------------QUALITIES-------------*/
@@ -184,7 +180,6 @@ body {
   display: flex;
 }
 
-
 .qualities-item {
   margin-right: 30px;
 }
@@ -193,60 +188,54 @@ body {
   margin-right: 0;
 }
 
-.qualities-list{
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
+
 
 /*-------------ACTION-------------*/
 
-.action-list{
+.action-list {
   display: flex;
 }
 
-.action-item{
+.action-item {
   margin-right: 30px;
-  margin-bottom: 188px;
 }
 
-.action-item:last-child{
+.action-item:last-child {
   margin-right: 0;
 }
 
-.action-title{
+.action-title {
   margin-bottom: 50px;
 }
 
-
-
 /*-------------COMMAND-------------*/
 
-.team-list{
+.team-list {
   display: flex;
 }
 
-.team-title{
+.team-title {
   padding-bottom: 50px;
 }
 
-.team-item{
+.team-item {
   margin-right: 30px;
-  margin-bottom: 94px;
+
 }
 
-.team-item:last-child{
+.team-item:last-child {
   margin-right: 0;
 }
 
-.teammate-name{
+.teammate-name {
   margin-bottom: 10px;
 }
 
-.image{
+.image {
   margin-bottom: 30px;
 }
 
-.teammate-position{
+.teammate-position {
   margin-bottom: 30px;
 }
 
@@ -278,24 +267,22 @@ body {
 
 /*-------------FOOTER-------------*/
 
-.container-footer{
- height: 252px;
+.container-footer {
+  height: 252px;
 }
 
-.logo-container{
-  padding-top: 60px;
+.logo-container {
+
   margin-bottom: 20px;
 }
 
-.second-contact-list{
-  margin-bottom: 60px;
-}
 
-.second-contact-item{
+
+.second-contact-item {
   margin-bottom: 9px;
 }
 
-.second-contact-item:last-child{
+.second-contact-item:last-child {
   margin-bottom: 0;
 }
 
@@ -337,55 +324,53 @@ body {
 
 /*-------------PORTFOLIO-------------*/
 
-.portfolio-header{
-  margin-bottom: 93px;
-}
 
-.filter-container{
+
+.filter-container {
   display: flex;
   justify-content: center;
 }
 
-.filter-list{
+.filter-list {
   display: flex;
   margin-bottom: 50px;
 }
 
-.filter-item{
+.filter-item {
   margin-right: 8px;
 }
 
-.filter-item:last-child{
+.filter-item:last-child {
   margin-right: 0;
 }
 
-.portfolio-container{
+.portfolio-container {
   display: flex;
   margin-bottom: 64px;
 }
 
-.portfolio-list{
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio-item{
+.portfolio-item {
   margin-right: 30px;
 }
 
-.portfolio-item:nth-child(3n){
+.portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
 
-.portfolio-image{
+.portfolio-image {
   margin-bottom: 20px;
 }
 
-.portfolio-titles{
+.portfolio-titles {
   margin-bottom: 4px;
 }
 
-.portfolio-paragraph{
+.portfolio-paragraph {
   margin-bottom: 50px;
 }
 
