@@ -42,8 +42,8 @@ ul {
 
 .header-container {
   display: flex;
-  align-items: center;
-  height: 80px;
+  align-items: baseline;
+  
 }
 
 .contact-container {
@@ -348,10 +348,10 @@ body {
 
 .filter-list{
   display: flex;
+  margin-bottom: 50px;
 }
 
 .filter-item{
-  justify-content: center;
   margin-right: 8px;
 }
 
@@ -361,10 +361,32 @@ body {
 
 .portfolio-container{
   display: flex;
+  margin-bottom: 64px;
 }
 
 .portfolio-list{
   display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item{
+  margin-right: 30px;
+}
+
+.portfolio-item:nth-child(3n){
+  margin-right: 0;
+}
+
+.portfolio-image{
+  margin-bottom: 20px;
+}
+
+.portfolio-titles{
+  margin-bottom: 4px;
+}
+
+.portfolio-paragraph{
+  margin-bottom: 50px;
 }
 
 .secondary-button {
