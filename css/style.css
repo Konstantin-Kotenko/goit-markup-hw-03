@@ -312,6 +312,10 @@ body {
 
 /*-------------PORTFOLIO-------------*/
 
+.filter{
+  padding: 94px 0;
+}
+
 .filter-container {
   display: flex;
   justify-content: center;
