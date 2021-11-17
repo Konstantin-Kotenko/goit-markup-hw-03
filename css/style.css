@@ -7,6 +7,7 @@
   --secondary-link-color: rgba(255, 255, 255, 0.6);
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --header-border-bottom-color: #ececec;
 }
 
 p,
@@ -31,9 +32,8 @@ ul {
   margin: 0 auto;
 }
 
-.section{
-  padding-top: 94px;
-  padding-bottom: 94px;
+.navigation {
+  margin-left: 93px;
 }
 
 .nav-list {
@@ -47,24 +47,19 @@ ul {
 
 .header-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
-.contact-container {
+.contact-list {
   margin-left: auto;
-}
-
-.logo-container {
-  margin-right: 93px;
-  padding-bottom: 25px;
 }
 
 .nav-item {
   margin-right: 50px;
 }
 
-.nav-item:last-child {
-  margin-right: 0;
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contact-item {
@@ -90,15 +85,24 @@ body {
 .logo-web {
   color: var(--accent-color);
 }
+.section {
+  padding: 94px 0;
+}
 
 /*-------------HEADER-------------*/
+
+.header {
+  border-bottom: 1px solid var(--header-border-bottom-color);
+}
 
 .nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding: 32px 0;
   letter-spacing: 0.02em;
   color: var(--primary-shade-color);
+  display: block;
 }
 
 .logo {
@@ -140,18 +144,13 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  margin-bottom: 30px;
 }
 
 .hero {
+  padding: 200px 0;
   background-color: var(--primary-background-color);
   text-align: center;
-}
-
-.hero-title {
-  padding-top: 200px;
-  padding-left: 250px;
-  padding-right: 250px;
-  margin-bottom: 30px;
 }
 
 /*-------------QUALITIES-------------*/
@@ -188,8 +187,6 @@ body {
   margin-right: 0;
 }
 
-
-
 /*-------------ACTION-------------*/
 
 .action-list {
@@ -204,23 +201,22 @@ body {
   margin-right: 0;
 }
 
-.action-title {
-  margin-bottom: 50px;
+.action {
+  padding-bottom: 94px;
 }
-
 /*-------------COMMAND-------------*/
 
 .team-list {
   display: flex;
 }
 
-.team-title {
-  padding-bottom: 50px;
+.team {
+  background: var(--secondary-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.team-item {
-  margin-right: 30px;
-
+.team-div {
+  padding: 30px 0 30px 0;
 }
 
 .team-item:last-child {
@@ -229,10 +225,6 @@ body {
 
 .teammate-name {
   margin-bottom: 10px;
-}
-
-.image {
-  margin-bottom: 30px;
 }
 
 .teammate-position {
@@ -244,6 +236,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
   letter-spacing: 0.03em;
   color: var(--primary-shade-color);
 }
@@ -266,17 +259,6 @@ body {
 }
 
 /*-------------FOOTER-------------*/
-
-.container-footer {
-  height: 252px;
-}
-
-.logo-container {
-
-  margin-bottom: 20px;
-}
-
-
 
 .second-contact-item {
   margin-bottom: 9px;
@@ -316,15 +298,19 @@ body {
 
 .footer {
   background-color: var(--primary-background-color);
+  padding: 60px 0;
 }
 
 .address {
+  margin-top: 20px;
   font-style: normal;
 }
 
+.second-contact-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /*-------------PORTFOLIO-------------*/
-
-
 
 .filter-container {
   display: flex;
@@ -333,6 +319,7 @@ body {
 
 .filter-list {
   display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -354,24 +341,16 @@ body {
   flex-wrap: wrap;
 }
 
-.portfolio-item {
+.portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.portfolio-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.portfolio-image {
+.portfolio-item:nth-child(-n + 6) {
   margin-bottom: 20px;
 }
 
-.portfolio-titles {
-  margin-bottom: 4px;
-}
-
-.portfolio-paragraph {
-  margin-bottom: 50px;
+.projects {
+  padding: 20px 24px;
 }
 
 .secondary-button {
@@ -383,11 +362,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-shade-color);
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
 }
 
 .secondary-button:focus,
 .secondary-button:hover {
-  color: var(--secondary-color);
+  color: var(--secondary-background-color);
   background: var(--accent-color);
 }
 
@@ -415,6 +397,9 @@ body {
   letter-spacing: 0.06em;
   background: var(--accent-color);
   color: var(--secondary-background-color);
+  border-radius: 4px;
+  border: none;
+  padding: 10px 32px;
 }
 
 .visually-hidden {
