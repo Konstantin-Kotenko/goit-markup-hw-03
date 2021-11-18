@@ -36,6 +36,7 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
+  background: var(--secondary-color);
 }
 
 .list {
