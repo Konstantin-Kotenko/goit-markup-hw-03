@@ -47,12 +47,6 @@ body {
   text-decoration: none;
 }
 
-.img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
-
 .navigation {
   margin-left: 93px;
 }
@@ -87,6 +81,11 @@ body {
   padding: 94px 0;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
 /*-------------HEADER-------------*/
 
 .header {
@@ -328,7 +327,6 @@ body {
 .projects {
   border: 1px solid var(--border-color);
   border-top: 0px;
-
 }
 
 .portfolio-item:not(:nth-child(3n)) {
