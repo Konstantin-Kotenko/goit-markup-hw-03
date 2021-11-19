@@ -173,6 +173,10 @@ img {
   color: var(--primary-shade-color);
 }
 
+.qualities-title {
+  margin-bottom: 10px;
+}
+
 .qualities-paragraph {
   font-size: 14px;
   line-height: 1.71;
@@ -260,10 +264,6 @@ img {
 
 /*-------------FOOTER-------------*/
 
-.second-contact-item:last-child {
-  margin-bottom: 0;
-}
-
 .map-link {
   font-size: 14px;
   line-height: 1.71;
@@ -303,11 +303,6 @@ img {
 }
 
 /*-------------PORTFOLIO-------------*/
-
-.filter {
-  display: flex;
-  justify-content: center;
-}
 
 .filter-list {
   display: flex;
@@ -367,6 +362,10 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-shade-color);
+}
+
+.portfolio-titles {
+  margin-bottom: 4px;
 }
 
 .portfolio-paragraph {
