@@ -47,6 +47,12 @@ body {
   text-decoration: none;
 }
 
+.img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 .navigation {
   margin-left: 93px;
 }
@@ -79,12 +85,6 @@ body {
 
 .section {
   padding: 94px 0;
-}
-
-.img {
-  max-width: 100%;
-  display: block;
-  height: auto;
 }
 
 /*-------------HEADER-------------*/
@@ -233,7 +233,7 @@ body {
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -305,7 +305,7 @@ body {
 
 /*-------------PORTFOLIO-------------*/
 
-.filter-container {
+.filter {
   display: flex;
   justify-content: center;
 }
@@ -328,6 +328,7 @@ body {
 .projects {
   border: 1px solid var(--border-color);
   border-top: 0px;
+
 }
 
 .portfolio-item:not(:nth-child(3n)) {
